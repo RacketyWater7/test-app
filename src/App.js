@@ -14,6 +14,7 @@ function App() {
     <div>
       {statesObject.someState}
       <button onClick={handleClick}>update</button>
+      commit 2 commit 3 commit 4
     </div>
   );
 }
