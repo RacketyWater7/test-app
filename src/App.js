@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MathpixMarkdown, MathpixLoader } from "mathpix-markdown-it";
 import "./App.css";
+import "./styles/test.css";
 
 function App() {
   const [val, setVal] = useState(0);
@@ -11,6 +12,7 @@ function App() {
   const handleClick = () => {
     statesObject.someStateUpdater(val + 1);
   };
+  //more like a pro
   const thing = `**(3)** This question is about tests for some elements and compounds.
   **(a)** What is the test for hydrogen?
  $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$**(1)**
@@ -36,8 +38,8 @@ function App() {
     <div>
       {statesObject.someState}
       <button onClick={handleClick}>update</button>
-      commit 2 commit 3 commit 4 commit 5 commit 6 commit 7 commit 8 commit 9
-      more commits
+      commit 2 commit 3 commit 4 commit 5 commit 6 commit 7 commit 8 commit 9 10 11
+      more <h1 id="flan">commits</h1>
       <div>
         <MathpixLoader>
           <MathpixMarkdown text={thing} />
