@@ -23,7 +23,7 @@ const manageStatefulObject = ({
           state: stateValue,
           updateState: updateStateValue,
         };
-      }
+      } //made some changes here
       switch (action) {
         case "update":
           if (storedObject[objkey].state !== objKeyValue) {
