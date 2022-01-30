@@ -39,6 +39,7 @@ function App() {
       {statesObject.someState}
       <button onClick={handleClick}>update</button>
       commit 2 commit 3 commit 4 commit 5 commit 6 commit 7 commit 8 commit 9 10 11
+new commits in main
       more <h1 id="flan">commits</h1>
       <div>
         <MathpixLoader>
