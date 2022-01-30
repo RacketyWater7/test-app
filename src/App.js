@@ -40,7 +40,7 @@ function App() {
       <button onClick={handleClick}>update</button>
       commit 2 commit 3 commit 4 commit 5 commit 6 commit 7 commit 8 commit 9 10
       11 new commits in main more <h1 id="flan">commits</h1>
-      more commits
+      more commit
       <div>
         <MathpixLoader>
           <MathpixMarkdown text={thing} />
@@ -51,7 +51,9 @@ function App() {
       commits added blah added blah commit 2 commit 3 commit 4 commit 5 commit 6
       commit 7 commit 8 commit 9 blah and blah commit 1000000 more commitsadded
       blah blah and blah commit 1000000 more commits making few changes in
-      branch_amade changes in branch_amade changes in branch_a
+      branch_amade changes in branch_amade changes in branch_a commit 2 commit 3
+      commit 4 commit 5 commit 6 commit 7 commit 8 commit 9 blah and blah commit
+      1000000 more commits made a few
     </div>
   );
 }
