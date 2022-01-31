@@ -45,6 +45,7 @@ function App() {
           <MathpixMarkdown text={thing} />
         </MathpixLoader>
       </div>
+      preparing ground for rebase from remote
     </div>
   );
 }
