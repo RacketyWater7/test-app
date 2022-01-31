@@ -46,14 +46,9 @@ function App() {
           <MathpixMarkdown text={thing} />
         </MathpixLoader>
       </div>
-      preparing ground for rebase from remote commit 2 commit 3 commit 4 commit
-      5 commit 6 commit 7 commit 8 commit 9 blah and blah commit 1000000 more
-      commits added blah added blah commit 2 commit 3 commit 4 commit 5 commit 6
-      commit 7 commit 8 commit 9 blah and blah commit 1000000 more commitsadded
-      blah blah and blah commit 1000000 more commits making few changes in
-      branch_amade changes in branch_amade changes in branch_a commit 2 commit 3
-      commit 4 commit 5 commit 6 commit 7 commit 8 commit 9 blah and blah commit
-      1000000 more commits made a few
+      commit 2 commit 3 commit 4 commit 5 commit 6 commit 7 commit 8 commit 9
+      blah and blah commit 1000000 more commits preparing ground for rebase from
+      local
     </div>
   );
 }
